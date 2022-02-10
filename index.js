@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-const inquire = require('inquire');
+const inquirer = require('inquirer'); 
 const fs = require('fs');
-const inquirer = require('inquirer');
+
 
 const generateReadme = ({ title, description, usage, installation, license, test, contributors }) =>
 '# Title:'
@@ -53,7 +53,7 @@ inquirer
     .then((answers) => {
         const readmePageContent = generateReadme(answers);
 
-        fs.writeFile('README.md', readmePageContent, (err) => 
+        fs.writeFile('README.md', readmePageContent, (err) => //this creates the new file 
         err ? console.log(err) : console.log('Successfully created README.md!')
         );
     });
