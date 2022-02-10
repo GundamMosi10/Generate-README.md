@@ -1,13 +1,35 @@
 // TODO: Include packages needed for this application
+const inquire = require('inquire');
+const fs = require('fs');
+const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+const generateReadme = ({ title, description, usage, installation, license, test, contributors }) =>
+'# Title:'
+'## Description:'
+'## Usage:'
+'## Installation:'
+'## License:'
+'## Test:'
+'## Contributors:';
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+inquirer
+    .promt([
+        {
+            type: 'input',
+            title: 'title',
+            message: 'What is the title of the project?',
+        }
+    ])
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
-init();
+// // TODO: Create an array of questions for user input
+// const questions = [];
+
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
+
+// // TODO: Create a function to initialize app
+// function init() {}
+
+// // Function call to initialize app
+// init();
