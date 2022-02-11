@@ -84,7 +84,6 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'What is the license used for this project?',
-        choices: ['MIT License'],
     },
     {
         type: 'input',

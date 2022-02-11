@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   -- [Installation](#installation)
   -- [License](#license)
   -- [Contributors](#contributors)
-  -- [Github User Name](#userName)
+  -- [Github User Name](#githubuserName)
   -- [Email](#email)
   ## Usage:
   ${data.usage}
