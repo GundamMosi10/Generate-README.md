@@ -10,7 +10,8 @@ const generateReadme = ({ title, description, usage, installation, license, test
 '## Installation:'
 '## License:'
 '## Test:'
-'## Contributors:';
+'## Contributors:'
+'## Questions:';
 
 inquirer
     .promt([
@@ -49,6 +50,11 @@ inquirer
             name: 'contributors',
             message: 'Who contributed to this project?',
         },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'Any questions contact me here:',
+        }
     ])
     .then((answers) => {
         const readmePageContent = generateReadme(answers);
