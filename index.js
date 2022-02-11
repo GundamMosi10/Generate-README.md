@@ -92,7 +92,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'userName',
+        name: 'githubuserName',
         messsage: 'What is the user name of your GitHub profile?',
     },
     {

@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   ${data.description}
   ## Table of Contents:
   -- [Usage](#usage)\n
-  -- [Installation](#installation)]\n
+  -- [Installation](#installation)\n
   -- [License](#license)\n
   -- [Contributors](#contributors)\n
   -- [Github User Name](#githubuserName)\n
