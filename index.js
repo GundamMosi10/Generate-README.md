@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer'); 
-const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer'); //inquirer package remember to install on command line
+const fs = require('fs'); //Filesystem
+const generateMarkdown = require('./utils/generateMarkdown'); //This line connects to the generateMarkdown.js file
 
 // const generateReadme = ({ title, description, usage, installation, license, test, contributors, questions }) =>
 // '# Title:\n## Description:\n## Usage:\n## Installation:\n## License:\n## Test:\n## Contributors:\n## Questions:\n';
@@ -68,12 +68,12 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description of this project?',
+        message: 'How would you describe this project?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use this project?',
+        message: 'How would you use this application?',
     },
     {
         type: 'input',
@@ -84,11 +84,7 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'What is the license used for this project?',
-    },
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Have you tested this project?',
+        choices: ['MIT License'],
     },
     {
         type: 'input',
@@ -102,8 +98,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'email',
-        message: 'What is your email?',
+        name: 'userEmail',
+        messsage: 'What is the best email to contact you?',
     },
 ]
 
