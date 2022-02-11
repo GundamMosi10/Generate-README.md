@@ -12,11 +12,11 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(license === 'MIT') return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)` //change the badges corresponding to the correct license badge 
+  if(license === 'MIT') return `![License: MIT](https://opensource.org/licenses/MIT)` //change the badges corresponding to the correct license badge 
   if(license === 'Apache') return `![License: Apache](https://img.shields.io/badge/License-MIT-yellow.svg)`
   if(license === 'Boost Software') return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   if(license === 'Eclipse Public') return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-  if(license === 'IBM') return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+  if(license === 'IBM') return `![License: IBM](https://img.shields.io/badge/License-MIT-yellow.svg)`
   return " ";
   
 };
@@ -28,6 +28,8 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const licensebadge = renderLicenseBadge(data.licenseList)
+  const licenselink = renderLicenseLink(data.licenseList)
   console.log(data);
   return `
   # ${data.title} \n
@@ -38,7 +40,7 @@ function generateMarkdown(data) {
   -- [Installation](#installation)\n
   -- [License](#license)\n
   -- [Contributors](#contributors)\n
-  -- [Github User Name](#Github User Name)\n
+  -- [Github User Name](#GithubUserName)\n
   -- [Email](#email)\n
   -- [Test](#test)\n  
   ## Usage:
@@ -46,9 +48,7 @@ function generateMarkdown(data) {
   ## Installation:
   ${data.installation}
   ## License:
-  ${data.license}
-  ## License list:
-  ${data.licenseList}
+  ${licensebadge} + "  " + ${licenselink}
   ## Contributors:
   ${data.contributors}
   ## Github User Name:

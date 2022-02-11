@@ -1,5 +1,5 @@
 
-  # README generator 
+  # readme  
 
   ## Description: 
   creating a readme 
@@ -12,22 +12,20 @@
 
   -- [Contributors](#contributors)
 
-  -- [Github User Name](#Github User Name)
+  -- [Github User Name](#GithubUserName)
 
   -- [Email](#email)
 
   -- [Test](#test)
   
   ## Usage:
-  by creating a readme 
+  creating a readme 
   ## Installation:
-  you hammer it together 
+  yep 
   ## License:
-  
-  ## License list:
-  Apache 2.0
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) + "  " + ![License: MIT](https://opensource.org/licenses/MIT)
   ## Contributors:
-  ME
+  me
   ## Github User Name:
   GundamMosi10
   ## Email:
