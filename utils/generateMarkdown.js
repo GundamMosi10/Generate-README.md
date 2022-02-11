@@ -17,12 +17,12 @@ function generateMarkdown(data) {
   ## Description: 
   ${data.description}
   ## Table of Contents:
-  -- [Usage](#usage)
-  -- [Installation](#installation)
-  -- [License](#license)
-  -- [Contributors](#contributors)
-  -- [Github User Name](#githubuserName)
-  -- [Email](#email)
+  -- [Usage](#usage)\n
+  -- [Installation](#installation)]\n
+  -- [License](#license)\n
+  -- [Contributors](#contributors)\n
+  -- [Github User Name](#githubuserName)\n
+  -- [Email](#email)\n
   ## Usage:
   ${data.usage}
   ## Installation:
