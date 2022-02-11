@@ -33,6 +33,12 @@ const questions = [
         message: 'What is the license used for this project?',
     },
     {
+        type: 'list',
+        name: 'licenseList',
+        choices: ['MIT', 'Apache 2.0', 'Boost Software', 'Eclipe Public', 'IBM Public'],
+        message: 'What is the license used for this project?',
+    },
+    {
         type: 'input',
         name: 'contributors',
         message: 'Who are the contributors for this project?',
