@@ -3,18 +3,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 
-const generateReadme = ({ title, description, usage, installation, license, test, contributors }) =>
-'# Title:'
-'## Description:'
-'## Usage:'
-'## Installation:'
-'## License:'
-'## Test:'
-'## Contributors:'
-'## Questions:';
+const generateReadme = ({ title, description, usage, installation, license, test, contributors, questions }) =>
+'# Title: ${title} \n## Description:\n## Usage:\n## Installation:\n## License:\n## Test:\n## Contributors:\n## Questions:\n';
 
 inquirer
-    .promt([
+    .prompt([
         {
             type: 'input',
             name: 'title',
