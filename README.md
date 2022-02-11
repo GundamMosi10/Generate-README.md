@@ -4,12 +4,12 @@
   ## Description: 
   y
   ## Table of Contents:
-  -- [Usage](#usage)
-  -- [Installation](#installation)
-  -- [License](#license)
-  -- [Contributors](#contributors)
-  -- [Github User Name](#userName)
-  -- [Email](#email)
+  -- [Usage](#usage)\n
+  -- [Installation](#installation)\n
+  -- [License](#license)\n
+  -- [Contributors](#contributors)\n
+  -- [Github User Name](#userName)\n
+  -- [Email](#email)\n
   ## Usage:
   y
   ## Installation:
