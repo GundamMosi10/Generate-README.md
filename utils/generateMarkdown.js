@@ -8,7 +8,8 @@ function renderLicenseLink(license) {
   if(renderLicenseLink === 'MIT'){
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
-}
+  return yourLicense;
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
