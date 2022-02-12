@@ -52,7 +52,7 @@ function generateMarkdown(data) {
   -- [Email](#email)\n
   -- [Test](#test)\n  
   ## Usage:
-  Here is a link to a demo of this application: ${data.usage}
+  Here is a link to a [demo](https://vimeo.com/676496845/68b3e27432) ${data.usage}
   ## Installation:
   ${data.installation}
   ## License:
