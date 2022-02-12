@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   -- [Installation](#installation)\n
   -- [License](#license)\n
   -- [Contributors](#contributors)\n
-  -- [Github User Name](#GithubUserName)\n
+  -- [Github User Name](#Github-User-Name)\n
   -- [Email](#email)\n
   -- [Test](#test)\n  
   ## Usage:
@@ -61,9 +61,9 @@ function generateMarkdown(data) {
   ## Contributors:
   ${data.contributors}
   ## Github User Name:
-  https://github.com/${data.userName}
+  Here is a link to my Github: https://github.com/${data.userName}
   ## Email:
-  ${data.userEmail}
+  If you have any questions or would like to get in contact with me you can email me at this address: ${data.userEmail}
   ## Test: 
   ${data.test}
 
