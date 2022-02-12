@@ -61,7 +61,7 @@ function generateMarkdown(data) {
   ## Contributors:
   ${data.contributors}
   ## Github User Name:
-  ${data.userName}
+  https://github.com/${data.userName}
   ## Email:
   ${data.userEmail}
   ## Test: 
